@@ -1,0 +1,258 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: mpp pp, mony, LIC=BVRJ7-EI9SJ-QG57X-H7AH9-A0NQ8-H0NFZ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Essential  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TARMCM1.DLL V1.14.1.0
+ 
+<h2>Project:</h2>
+D:\11_new_lca\46_bak_45_ms_return_chg\lca\MDK-ARM\LCA_V2_PCB.uvprojx
+Project File Date:  03/30/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'LCA_V2_PCB'
+assembling startup_stm32f030xc.s...
+compiling stm32f0xx_it.c...
+compiling stm32f0xx_hal_msp.c...
+compiling main.c...
+..\MDK-ARM\ec_200_lib.h(9): warning:  #1295-D: Deprecated declaration check_mqtt_status - give arg types
+  void check_mqtt_status();
+..\MDK-ARM\ec_200_lib.h(26): warning:  #1295-D: Deprecated declaration keep_alive - give arg types
+  void keep_alive();
+..\MDK-ARM\ec_200_lib.h(56): warning:  #1295-D: Deprecated declaration pub_msg - give arg types
+  void pub_msg();
+../Core/Inc/pkt_pub.h(7): warning:  #1295-D: Deprecated declaration pub_boot_msg - give arg types
+  void pub_boot_msg();
+../Core/Inc/pkt_pub.h(8): warning:  #1295-D: Deprecated declaration pub_live_msg - give arg types
+  void pub_live_msg();
+../Core/Inc/pkt_pub.h(10): warning:  #1295-D: Deprecated declaration pub_msg_confirmed - give arg types
+  void pub_msg_confirmed();
+../Core/Inc/pkt_pub.h(12): warning:  #1295-D: Deprecated declaration apn_msg_confirmed - give arg types
+  void apn_msg_confirmed();
+../Core/Inc/pkt_pub.h(14): warning:  #1295-D: Deprecated declaration apn_pkt - give arg types
+  void apn_pkt();
+../Core/Inc/pkt_pub.h(16): warning:  #1295-D: Deprecated declaration pkt_t_msg_confirmed - give arg types
+  void pkt_t_msg_confirmed();
+../Core/Inc/pkt_pub.h(18): warning:  #1295-D: Deprecated declaration rst_msg_confirmed - give arg types
+  void rst_msg_confirmed();
+../Core/Inc/pkt_pub.h(20): warning:  #1295-D: Deprecated declaration rns_msg_confirmed - give arg types
+  void rns_msg_confirmed();
+../Core/Inc/pkt_pub.h(21): warning:  #1295-D: Deprecated declaration lfs_msg_confirmed - give arg types
+  void lfs_msg_confirmed();
+../Core/Inc/pkt_pub.h(22): warning:  #1295-D: Deprecated declaration cwm_msg_confirmed - give arg types
+  void cwm_msg_confirmed();
+../Core/Inc/pkt_pub.h(23): warning:  #1295-D: Deprecated declaration pit_msg_confirmed - give arg types
+  void pit_msg_confirmed();
+../Core/Inc/mcp23017.h(31): warning:  #1295-D: Deprecated declaration MCP_PA_OUT_MODE - give arg types
+  uint8_t MCP_PA_OUT_MODE();
+../Core/Inc/mcp23017.h(32): warning:  #1295-D: Deprecated declaration MCP_PA_IN_MODE - give arg types
+  uint8_t MCP_PA_IN_MODE();
+../Core/Inc/mcp23017.h(33): warning:  #1295-D: Deprecated declaration MCP_PB_OUT_MODE - give arg types
+  uint8_t MCP_PB_OUT_MODE();
+../Core/Inc/mcp23017.h(34): warning:  #1295-D: Deprecated declaration MCP_PB_IN_MODE - give arg types
+  uint8_t MCP_PB_IN_MODE();
+../Core/Inc/mcp23017.h(37): warning:  #1295-D: Deprecated declaration MCP_PA_READ - give arg types
+  uint8_t MCP_PA_READ();
+../Core/Inc/mcp23017.h(38): warning:  #1295-D: Deprecated declaration MCP_PB_READ - give arg types
+  uint8_t MCP_PB_READ();
+../Core/Inc/mcp23017.h(40): warning:  #1295-D: Deprecated declaration mcp_init - give arg types
+  void mcp_init();
+../Core/Src/main.c(74): warning:  #1295-D: Deprecated declaration mqtt_valve_output - give arg types
+  void mqtt_valve_output();
+../Core/Src/main.c(296): warning:  #1295-D: Deprecated declaration network_boot_chk - give arg types
+  void network_boot_chk(); // for boot
+../Core/Src/main.c(298): warning:  #1295-D: Deprecated declaration network_chk - give arg types
+  void network_chk();
+../Core/Src/main.c(300): warning:  #1295-D: Deprecated declaration start_modem_config - give arg types
+  void start_modem_config();
+../Core/Src/main.c(302): warning:  #1295-D: Deprecated declaration SET_PASS_CODE - give arg types
+  void SET_PASS_CODE();
+../Core/Src/main.c(464): warning:  #1295-D: Deprecated declaration pump_initialization - give arg types
+  int pump_initialization();
+../Core/Src/main.c(1250): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(RELAY_PWR_GPIO_Port,RELAY_PWR_Pin,1);
+../Core/Src/main.c(1262): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(RELAY_PWR_GPIO_Port,RELAY_PWR_Pin,0);
+../Core/Src/main.c(1265): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(PUMP_R_GPIO_Port,PUMP_R_Pin,1);				
+../Core/Src/main.c(1275): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(PUMP_R_GPIO_Port,PUMP_R_Pin,0);
+../Core/Src/main.c(1452): warning:  #188-D: enumerated type mixed with another type
+  					HAL_GPIO_WritePin(RELAY_PWR_GPIO_Port,RELAY_PWR_Pin,1);
+../Core/Src/main.c(1453): warning:  #188-D: enumerated type mixed with another type
+  					HAL_GPIO_WritePin(PUMP_R_GPIO_Port,PUMP_R_Pin,0);
+../Core/Src/main.c(2134): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(RELAY_PWR_GPIO_Port,RELAY_PWR_Pin,1);
+../Core/Src/main.c(2135): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(PUMP_R_GPIO_Port,PUMP_R_Pin,0);
+../Core/Src/main.c(2548): warning:  #177-D: variable "getTime"  was declared but never referenced
+  	RTC_TimeTypeDef getTime = {0};
+../Core/Src/main.c(4002): warning:  #223-D: function "atoi" declared implicitly
+  		uint8_t signal_value = atoi(buff_signal_strength_data);
+../Core/Src/main.c(4157): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(RELAY_PWR_GPIO_Port,RELAY_PWR_Pin,1);
+../Core/Src/main.c(4158): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(PUMP_R_GPIO_Port,PUMP_R_Pin,0);
+../Core/Src/main.c(4250): warning:  #223-D: function "atoi" declared implicitly
+  		get_year = atoi(buff_date_yy);
+../Core/Src/main.c(4336): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(EXP_OUT_GPIO_Port,EXP_OUT_Pin,1);
+../Core/Src/main.c(4363): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(RELAY_PWR_GPIO_Port,RELAY_PWR_Pin,1);
+../Core/Src/main.c(4310): warning:  #177-D: variable "Data"  was declared but never referenced
+  	uint8_t *Data;
+../Core/Src/main.c(4311): warning:  #177-D: variable "idx"  was declared but never referenced
+  	uint8_t idx, j, i, u; // ori
+../Core/Src/main.c(4311): warning:  #177-D: variable "j"  was declared but never referenced
+  	uint8_t idx, j, i, u; // ori
+../Core/Src/main.c(4311): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t idx, j, i, u; // ori
+../Core/Src/main.c(4311): warning:  #177-D: variable "u"  was declared but never referenced
+  	uint8_t idx, j, i, u; // ori
+../Core/Src/main.c(4312): warning:  #177-D: variable "hrs"  was declared but never referenced
+  	uint16_t hrs;
+../Core/Src/main.c(4313): warning:  #177-D: variable "configured"  was declared but never referenced
+  	uint16_t configured = 0xDCBA;
+../Core/Src/main.c(6155): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(RELAY_PWR_GPIO_Port,RELAY_PWR_Pin,0);
+../Core/Src/main.c(6160): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(PUMP_R_GPIO_Port,PUMP_R_Pin,1);
+../Core/Src/main.c(6165): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(PUMP_R_GPIO_Port,PUMP_R_Pin,0);
+../Core/Src/main.c(6230): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(LCD_LED_GPIO_Port, LCD_LED_Pin, 1);
+../Core/Src/main.c(6238): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(LCD_LED_GPIO_Port, LCD_LED_Pin, 0);
+../Core/Src/main.c: 54 warnings, 0 errors
+compiling config.c...
+compiling ec_200_lib.c...
+ec_200_lib.h(9): warning:  #1295-D: Deprecated declaration check_mqtt_status - give arg types
+  void check_mqtt_status();
+ec_200_lib.h(26): warning:  #1295-D: Deprecated declaration keep_alive - give arg types
+  void keep_alive();
+ec_200_lib.h(56): warning:  #1295-D: Deprecated declaration pub_msg - give arg types
+  void pub_msg();
+ec_200_lib.c(528): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(MODEM_REG_GPIO_Port,MODEM_REG_Pin,0);
+ec_200_lib.c(530): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(MODEM_REG_GPIO_Port,MODEM_REG_Pin,1);
+ec_200_lib.c(533): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(PWR_MODEM_GPIO_Port,PWR_MODEM_Pin,0);
+ec_200_lib.c(535): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(PWR_MODEM_GPIO_Port,PWR_MODEM_Pin,1);
+ec_200_lib.c(559): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(MODEM_REG_GPIO_Port,MODEM_REG_Pin,0);
+ec_200_lib.c(561): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(MODEM_REG_GPIO_Port,MODEM_REG_Pin,1);
+ec_200_lib.c(564): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(PWR_MODEM_GPIO_Port,PWR_MODEM_Pin,0);
+ec_200_lib.c(568): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(MODEM_REG_GPIO_Port,MODEM_REG_Pin,0);
+ec_200_lib.c: 11 warnings, 0 errors
+compiling eeprom_AT24xxx.c...
+..\Core\Src\eeprom_AT24xxx.c(69): warning:  #550-D: variable "v_eepromHigherAddress_u8"  was set but never used
+      uint8_t v_eepromHigherAddress_u8;
+..\Core\Src\eeprom_AT24xxx.c(101): warning:  #550-D: variable "v_eepromHigherAddress_u8"  was set but never used
+      uint8_t v_eepromHigherAddress_u8;
+..\Core\Src\eeprom_AT24xxx.c: 2 warnings, 0 errors
+compiling lcd_16x2.c...
+compiling pkt_pub.c...
+..\MDK-ARM\ec_200_lib.h(9): warning:  #1295-D: Deprecated declaration check_mqtt_status - give arg types
+  void check_mqtt_status();
+..\MDK-ARM\ec_200_lib.h(26): warning:  #1295-D: Deprecated declaration keep_alive - give arg types
+  void keep_alive();
+..\MDK-ARM\ec_200_lib.h(56): warning:  #1295-D: Deprecated declaration pub_msg - give arg types
+  void pub_msg();
+..\Core\Src\pkt_pub.c(283): warning:  #177-D: variable "type"  was declared but never referenced
+  	uint8_t type=31;
+..\Core\Src\pkt_pub.c: 4 warnings, 0 errors
+compiling remote_config.c...
+..\MDK-ARM\ec_200_lib.h(9): warning:  #1295-D: Deprecated declaration check_mqtt_status - give arg types
+  void check_mqtt_status();
+..\MDK-ARM\ec_200_lib.h(26): warning:  #1295-D: Deprecated declaration keep_alive - give arg types
+  void keep_alive();
+..\MDK-ARM\ec_200_lib.h(56): warning:  #1295-D: Deprecated declaration pub_msg - give arg types
+  void pub_msg();
+..\Core\Src\remote_config.c: 3 warnings, 0 errors
+compiling mcp23017.c...
+../Core/Inc/mcp23017.h(31): warning:  #1295-D: Deprecated declaration MCP_PA_OUT_MODE - give arg types
+  uint8_t MCP_PA_OUT_MODE();
+../Core/Inc/mcp23017.h(32): warning:  #1295-D: Deprecated declaration MCP_PA_IN_MODE - give arg types
+  uint8_t MCP_PA_IN_MODE();
+../Core/Inc/mcp23017.h(33): warning:  #1295-D: Deprecated declaration MCP_PB_OUT_MODE - give arg types
+  uint8_t MCP_PB_OUT_MODE();
+../Core/Inc/mcp23017.h(34): warning:  #1295-D: Deprecated declaration MCP_PB_IN_MODE - give arg types
+  uint8_t MCP_PB_IN_MODE();
+../Core/Inc/mcp23017.h(37): warning:  #1295-D: Deprecated declaration MCP_PA_READ - give arg types
+  uint8_t MCP_PA_READ();
+../Core/Inc/mcp23017.h(38): warning:  #1295-D: Deprecated declaration MCP_PB_READ - give arg types
+  uint8_t MCP_PB_READ();
+../Core/Inc/mcp23017.h(40): warning:  #1295-D: Deprecated declaration mcp_init - give arg types
+  void mcp_init();
+..\Core\Src\mcp23017.c: 7 warnings, 0 errors
+compiling stm32f0xx_hal_i2c.c...
+compiling stm32f0xx_hal_i2c_ex.c...
+compiling stm32f0xx_hal_rcc.c...
+compiling stm32f0xx_hal_rcc_ex.c...
+compiling stm32f0xx_hal.c...
+compiling stm32f0xx_hal_gpio.c...
+compiling stm32f0xx_hal_cortex.c...
+compiling stm32f0xx_hal_dma.c...
+compiling stm32f0xx_hal_pwr.c...
+compiling stm32f0xx_hal_pwr_ex.c...
+compiling stm32f0xx_hal_flash.c...
+compiling stm32f0xx_hal_flash_ex.c...
+compiling stm32f0xx_hal_iwdg.c...
+compiling stm32f0xx_hal_exti.c...
+compiling stm32f0xx_hal_rtc.c...
+compiling stm32f0xx_hal_rtc_ex.c...
+compiling stm32f0xx_hal_tim_ex.c...
+compiling stm32f0xx_hal_tim.c...
+compiling stm32f0xx_hal_uart_ex.c...
+compiling stm32f0xx_hal_uart.c...
+compiling system_stm32f0xx.c...
+linking...
+Program Size: Code=51852 RO-data=1068 RW-data=1776 ZI-data=6680  
+FromELF: creating hex file...
+"LCA_V2_PCB\LCA_V2_PCB.axf" - 0 Error(s), 81 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F0xx_DFP.3.0.0.pack
+                Keil.STM32F0xx_DFP.3.0.0
+                STMicroelectronics STM32F0 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_LCA_V2_PCB
+  C:\Users\manish\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+Build Time Elapsed:  00:00:18
+</pre>
+</body>
+</html>
